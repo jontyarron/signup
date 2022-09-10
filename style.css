@@ -149,7 +149,7 @@ input:focus {
 
 }
 
-input:invalid {
+input:invalid:not(:placeholder-shown) {
     border:2px red solid;
 }
 
@@ -174,8 +174,6 @@ input:valid + span::after{
     font-size: 2rem;
     margin-left: 1rem;
 }
-
-
 
 .submit-btn{
     display: flex;
