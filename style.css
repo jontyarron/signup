@@ -188,7 +188,8 @@ button {
     display: flex;
     font-family: 'Barlow',sans-serif;
     font-weight: bold;
-    font-size: max(1.3rem,100%);
+    font-size: 1.2rem;
+    /* font-size: 1vw; */
     height: 36%;
     width:25%;
     padding: 20px;
